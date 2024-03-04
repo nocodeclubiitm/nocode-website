@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Contact from "../components/contact/Contact";
 import Cursor from "../components/cursor/Cursor";

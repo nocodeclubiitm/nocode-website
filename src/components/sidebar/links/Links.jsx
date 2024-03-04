@@ -1,4 +1,7 @@
+"use client";
+import { siteConfig } from "@/lib/site-config";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 const variants = {
   open: {
@@ -25,19 +28,18 @@ const itemVariants = {
 };
 
 const Links = () => {
-  const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
-
+     const pathname=usePathname();
   return (
     <motion.div className="links" variants={variants}>
-      {items.map((item) => (
+      {siteConfig.navbar.map((item) => (
         <motion.a
-          href={`#${item}`}
-          key={item}
+          href={item.link}
+          key={item.id}
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          {item}
+        {item.id===3 ? (pathname==="/about-us" ? null:item.title) : item.title}
         </motion.a>
       ))}
     </motion.div>
