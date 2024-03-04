@@ -2,6 +2,23 @@ export const siteConfig = {
     title: "Nocode Club",
     tagLine: "Build. Fail. Iterate",
     subTagLine: "We are here to Increase your Productivity",
+    navbar:[
+        {
+            id:1,
+            title:"Home",
+            link:"/"
+        },
+        {
+            id:2,
+            title:"About Us",
+            link:"/about-us"
+        },
+        {
+            id:3,
+            title:"Contact",
+            link:"#Contact"
+        }
+    ],
     heroAbout:{
         title:[
             "Our",

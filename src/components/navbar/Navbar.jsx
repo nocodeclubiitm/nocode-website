@@ -1,3 +1,4 @@
+"use client";
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";

@@ -1,10 +1,13 @@
 import { siteConfig } from "@/lib/site-config";
 import ContentCard from "./_component/content-card";
 import ProfileCard from "./_component/profile-card";
+import Navbar from "@/components/navbar/Navbar";
+import Contact from "@/components/contact/Contact";
 const combinedTeamData = [...siteConfig.aboutUs.teams.heads, ...siteConfig.aboutUs.teams.leads, ...siteConfig.aboutUs.teams.Associates]
 const TeamPage = () => {
   return (
     <div className="bg-[#0E0E26] text-white">
+      <Navbar/>
       <div className="container">
         <div className=" container text-center h-screen flex flex-col justify-center items-center ">
           <h1 className="text-7xl text-center font-bold mb-5">
