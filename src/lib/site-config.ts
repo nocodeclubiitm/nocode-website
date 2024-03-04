@@ -1,10 +1,58 @@
 export const siteConfig = {
     title: "Nocode Club",
     tagLine: "Build. Fail. Iterate",
-    subTagLine: "We’re here to Increase your Productivity",
-    description:[
+    subTagLine: "We are here to Increase your Productivity",
+    heroAbout:{
+        title:[
+            "Our",
+            "Mission: ",
+            "Keep",
+            "Building!"
+        ],
+        tagline:[
+            "We focus on helping your startup grow ",
+            "and move forward"
+        ],
+        content:[
+            {
+                id:1,
+                title:"We want to reduce product failure cycle ...",
+                description:"The goal is to accelerate the failure cycle in the innovation process within a university semester from 6 months to just 2 weeks. The plan is to iterate quickly, building and failing multiple times to enhance learning and increase the chances of developing a successful product that users will value and pay for. The approach aims for rapid-fire learning through continuous experimentation and iteration."
+            },
+            {
+                id:2,
+                title:"...and develop a strong product culture on campus",
+                description:"The objective is to establish a strong product culture on campus by involving all students in hands-on experiences throughout the entire product lifecycle, whether in technology or business. The success metric is the number of students who complete this comprehensive experience, with a target of 20 fully engaged enthusiasts in the first year. The approach prioritizes learning through practical application, aiming to create a dynamic and exciting environment for growth and understanding of product development.🚀🌟"
+            }
+        ]
+    },
 
-    ],
+    projects:[
+        {
+          id: 1,
+          title: "Equippp",
+          img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        },
+        {
+          id: 2,
+          title: "Inbound",
+          img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        },
+        {
+          id: 3,
+          title: "Neosight",
+          img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        },
+        {
+          id: 4,
+          title: "AI Tutor",
+          img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        },
+      ],
 
     aboutUs:{
         titlle: "About Us",
@@ -120,5 +168,26 @@ export const siteConfig = {
             ],
             
         }
+    },
+
+    footer:{
+        title:"Let’s work together",
+        content:[
+            {
+                id:1,
+                title:"Mail",
+                description:"nocodeclub@smail.iitm.ac.in"
+            },
+            {
+                id:2,
+                title:"Address",
+                description:"Inside IIT Madras, Chennai, India"
+            },
+            {
+                id:3,
+                title:"Phone",
+                description:"+91 9142940445"
+            }
+        ]
     }
 }
