@@ -1,5 +1,3 @@
-"use client"
-
 import Image from "next/image";
 import Contact from "../components/contact/Contact";
 import Cursor from "../components/cursor/Cursor";
@@ -8,6 +6,7 @@ import Navbar from "../components/navbar/Navbar";
 import Parallax from "../components/parallax/Parallax";
 import Portfolio from "../components/portfolio/Portfolio";
 import Services from "../components/services/Services";
+
 export default function Home() {
   return (
     <div>
