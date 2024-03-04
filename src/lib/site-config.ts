@@ -18,7 +18,7 @@ export const siteConfig = {
             {
                 title: "Mission:",
                 subTitle:"Create the product building environment where ideas can grow faster",
-                description: "The mission of the No Code Club is to empower students by providing them with the knowledge and resources they need to effectively use no code tools. No-code club committed to offering educational support, guidance, and mentorship throughout the product development journey. By fostering a collaborative community, we strive to create an environment where students can learn, experiment, and succeed in building their own unique products without or minimum the need for coding skills."
+                description: "The No Code Club is focused on empowering students by teaching them how to use no-code tools, offering support and mentorship to help them create unique products with little to no coding required. The club fosters a collaborative and innovative learning environment."
             },
             {
                 title: "Initiatives:",
